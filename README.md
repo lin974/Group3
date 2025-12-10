@@ -28,7 +28,7 @@
         ```bash
         pip install -r requirements.txt
         ```
-    # 根據您的硬體 (例如有無 NVIDIA GPU)，您可能需要加上特定參數來啟用加速。
+   **根據您的硬體 (例如有無 NVIDIA GPU)，您可能需要加上特定參數來啟用加速。
 ⬇️ 模型檔案下載
 您需要從 Hugging Face 下載 GGUF 格式的模型檔案。
 
