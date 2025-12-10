@@ -10,9 +10,7 @@
 
       * **$\text{TimesFM}$ (時序預測引擎)：**
         ```bash
-        pip install timesfm
-        # 如果需要從原始碼安裝：
-        git clone https://github.com/google-research/timesfm.git
+        pip install git+https://github.com/google-research/timesfm.git
         ```
       * **$\text{LLaMA-CPP}$ (地端 $\text{LLM}$ 執行環境)：**
         ```bash
@@ -29,6 +27,7 @@
         pip install -r requirements.txt
         ```
    根據您的硬體 (例如有無 NVIDIA GPU)，您可能需要加上特定參數來啟用加速。
+   
 ⬇️ 模型檔案下載
 您需要從 Hugging Face 下載 GGUF 格式的模型檔案。
 
