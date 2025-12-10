@@ -1,0 +1,5 @@
+#Outputed Data
+data/output/*
+
+# Jupyter Notebook
+.ipynb_checkpoints/
