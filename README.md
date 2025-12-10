@@ -47,5 +47,4 @@ mistral-nemo-instruct-2407.Q4_K_M.gguf
 
 點擊檔案名稱右側的 下載圖標 (向下箭頭)。
 
-
-#STEP2：
+接著就可以依序從檔案01開始執行
