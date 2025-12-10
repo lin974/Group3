@@ -163,7 +163,7 @@ if __name__ == '__main__':
         df[col] = df[col].astype(str).str.replace(r'\s+', ' ', regex=True).str.strip()
 
     # 儲存為 CSV 檔案 (會儲存到您的專案根目錄)
-    OUTPUT_FILENAME = 'data\raw\fed_transcripts_structured_pycharm.csv'
+    OUTPUT_FILENAME = r'data\raw\fed_transcripts_structured_pycharm.csv'
     df.to_csv(OUTPUT_FILENAME, index=False, encoding='utf-8')
 
     print("\n==========================================")
