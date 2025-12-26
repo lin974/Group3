@@ -13,11 +13,11 @@
 * **TimesFM (預測引擎)：** `pip install git+https://github.com/google-research/timesfm.git`
 * **LLaMA-CPP (LLM 執行環境)：** `pip install llama-cpp-python` (建議配置 CUDA 加速)
 
-### 2. 數據與文本處理工具
+### 2. 專案依賴項安裝
 
 ```bash
-# 安裝 PDF 解析與數據處理相關套件
-pip install pdfminer.six requests pandas tqdm matplotlib
+# 運行以下指令，安裝所有必要的套件
+pip install -r requirements.txt
 
 ```
 
